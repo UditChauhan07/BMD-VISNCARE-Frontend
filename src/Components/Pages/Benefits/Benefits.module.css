@@ -70,12 +70,12 @@
 
 .Key p {
     font-size: 18px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #00748D;
     text-align: center;
     padding: 15px;
-    font-family: "Anona-light";
-}
+    line-height: 24px;
+    font-family: "Anona-Semibold"}
 
 @media (max-width:1024px) {
     .Benefits_main {
