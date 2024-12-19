@@ -1,0 +1,45 @@
+.heroSection{
+ display: flex;
+    
+}
+.Slider_section{
+    width: 40%;
+}
+.Img_div img{
+    width: 100%;
+}
+.content_section{
+    width: 60%;
+    margin:auto;
+}
+.tittle {
+    padding-right: 3rem;
+}
+.tittle h1{
+    font-size: 50px;
+    color: #01A7E1;
+    letter-spacing: 5px;
+}
+.tittle p{
+    color: #007489;
+    font-size: 26px;
+}
+.description {
+    margin-top: 2rem;
+   
+}
+.description p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.innovation h3{
+    font-size: 26px;
+    color: #007489;
+    margin-bottom: 1rem;
+}
+.innovation p{
+    font-size: 20px;
+    color: #000000;
+}

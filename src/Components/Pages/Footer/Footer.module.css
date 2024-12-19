@@ -1,0 +1,11 @@
+.Footer_div{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1596d1, #37D7F0,#1596d1, #37D7F0);
+    height: 100px;
+}
+.Footer_div p{
+    color: white;
+}

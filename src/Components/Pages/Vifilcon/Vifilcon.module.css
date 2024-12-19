@@ -1,0 +1,74 @@
+.main_div{
+    /* display: flex; */
+    position: relative;
+    margin-top: -11rem;
+}
+.EyeLine_div{
+    width: 100%;
+    position: relative;
+    z-index: 1; 
+ 
+}
+.EyeLine_div img{
+    width: 60%;
+    position: relative;
+    left: 40%;
+}
+.flex_div{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.content_div{
+ 
+    width: 50%;
+    /* border: 1px solid red; */
+
+}
+.Content{
+    /* width: 70%;
+    margin: auto; */
+}
+.Vifilcon_div{
+    margin-bottom: 3rem;
+}
+.Vifilcon_div h3{
+    font-size: 26px;
+    color: #007489;
+}
+.Vifilcon_div p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.Fusion_div h3{
+    font-size: 26px;
+    color: #007489;
+}
+.Fusion_div p{
+    font-size: 20px;
+    color: #000000;
+}
+
+.Vifilcon_img{
+    /* margin: auto;
+    width: 70%; */
+}
+.Vifilcon_img img{
+    width: 100%;
+}
+@media (max-width:1024px){
+    .flex_div{
+        max-width: 900px;
+    }
+    .main_div{
+        margin-top: -5rem;
+    }
+}
