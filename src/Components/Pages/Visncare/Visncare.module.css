@@ -86,7 +86,7 @@
 }
 .tittle .titpara{
     color: #00758D;
-    font-size: 30px;
+    font-size: 26px;
     font-family: "Anona-medium";
 }
 .description {
@@ -95,20 +95,20 @@
 }
 .description p{
     color: #353535;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 1rem;
-    line-height: 48px;
+    line-height: 24px;
     font-family: "MokokoRegular";
 }
 
 .description p .boldfontw{
     font-family: "MokokoMedium";
     color: #060606;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .innovation h3{
-    font-size: 32px;
+    font-size: 26px;
     color: #00758D;
     margin-bottom: 1rem;
     font-family: "Anona-bold";
@@ -116,7 +116,7 @@
 
 }
 .innovation p{
-    font-size: 28px;
+    font-size: 20px;
     color: #000000;
     font-family: "MokokoRegular";
 }
