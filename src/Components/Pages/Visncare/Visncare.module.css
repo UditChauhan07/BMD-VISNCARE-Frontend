@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: "vinod";
+    src:
+      local("AnonaNew"),
+      url("/fonts/fonnts.com-Anona_Extrabold.otf") ,
+      
+  }
+/* @import url("/fonts/fonnts.com-Anona_Extrabold.otf"); */
+
 .heroSection{
  display: flex;
     
@@ -19,11 +29,14 @@
     font-size: 50px;
     color: #01A7E1;
     letter-spacing: 5px;
-    font-family: "anona Extrabold";
+    /* font-family: "anona Extrabold"; */
+    font-family: "Vinod";
+    
 }
 .tittle p{
     color: #007489;
     font-size: 26px;
+    font-family: "AnonaNew";
 }
 .description {
     margin-top: 2rem;
