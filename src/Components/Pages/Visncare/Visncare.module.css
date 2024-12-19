@@ -1,11 +1,62 @@
 
 @font-face {
-    font-family: "vinod";
+    font-family: "Anona-Semibold";
     src:
       local("AnonaNew"),
-      url("/fonts/fonnts.com-Anona_Extrabold.otf") ,
-      
+      url("/fonts/Fontspring-DEMO-anona-semibold.otf") , 
   }
+
+  @font-face {
+    font-family: "Anona-bold";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-bold.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-medium";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-medium.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-light";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-light.otf") ,
+  }
+
+
+
+  /* mokoko fonts */
+
+  @font-face {
+    font-family: "MokokoBold";
+    src:
+      local("MokokoBold"),
+      url("/fonts/moko/MokokoBd.otf") ,
+  }
+  
+
+  @font-face {
+    font-family: "MokokoMedium";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoMd.otf") ,
+  }
+
+  @font-face {
+    font-family: "MokokoRegular";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoRg.otf") ,
+  }
+
+  
+
+
+
 /* @import url("/fonts/fonnts.com-Anona_Extrabold.otf"); */
 
 .heroSection{
@@ -26,34 +77,46 @@
     padding-right: 3rem;
 }
 .tittle h1{
-    font-size: 50px;
-    color: #01A7E1;
+    font-size: 120px;
+    color: #00A7E1;
     letter-spacing: 5px;
-    /* font-family: "anona Extrabold"; */
-    font-family: "Vinod";
+    line-height: 120px;
+    font-family: "Anona-Semibold";
     
 }
-.tittle p{
-    color: #007489;
-    font-size: 26px;
-    font-family: "AnonaNew";
+.tittle .titpara{
+    color: #00758D;
+    font-size: 30px;
+    font-family: "Anona-medium";
 }
 .description {
     margin-top: 2rem;
    
 }
 .description p{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+    color: #353535;
+    font-size: 28px;
     margin-bottom: 1rem;
+    line-height: 48px;
+    font-family: "MokokoRegular";
+}
+
+.description p .boldfontw{
+    font-family: "MokokoMedium";
+    color: #060606;
+    font-size: 30px;
 }
 
 .innovation h3{
-    font-size: 26px;
-    color: #007489;
+    font-size: 32px;
+    color: #00758D;
     margin-bottom: 1rem;
+    font-family: "Anona-bold";
+    margin: 45px 0 20px 0;
+
 }
 .innovation p{
-    font-size: 20px;
+    font-size: 28px;
     color: #000000;
+    font-family: "MokokoRegular";
 }
