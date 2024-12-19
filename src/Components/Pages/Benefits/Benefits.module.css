@@ -1,3 +1,33 @@
+@font-face {
+    font-family: "Anona-Semibold";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-semibold.otf") , 
+  }
+
+  @font-face {
+    font-family: "Anona-bold";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-bold.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-medium";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-medium.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-light";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-light.otf") ,
+  }
+
+
+
 .Benefits_main {
     display: flex;
     align-items: center;
@@ -6,6 +36,7 @@
     top: -7rem;
     z-index: 1;
     max-width: 1200px;
+    width: 100%;
     margin: auto;
 }
 
@@ -43,6 +74,7 @@
     color: #00748D;
     text-align: center;
     padding: 15px;
+    font-family: "Anona-light";
 }
 
 @media (max-width:1024px) {
