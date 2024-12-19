@@ -1,3 +1,28 @@
+
+@font-face {
+    font-family: "MokokoBold";
+    src:
+      local("MokokoBold"),
+      url("/fonts/moko/MokokoBd.otf") ,
+  }
+  
+
+  @font-face {
+    font-family: "MokokoMedium";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoMd.otf") ,
+  }
+
+  @font-face {
+    font-family: "MokokoRegular";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoRg.otf") ,
+  }
+
+
+
 .Footer_div{
     margin-top: 2rem;
     display: flex;
@@ -8,4 +33,6 @@
 }
 .Footer_div p{
     color: white;
+    font-family: "MokokoRegular";
+
 }
