@@ -98,29 +98,31 @@
     margin-bottom: 3rem;
 }
 .Vifilcon_div h3{
-    font-size: 32px;
+    font-size: 26px;
     color: #00758D;
     font-family: "Anona-bold";
 }
 .Vifilcon_div p{
     color: #353535;
-    font-size: 28px;
-    margin-bottom: 1rem;
-    line-height: 48px;
+    font-size: 20px;
+    /* margin-bottom: 1rem; */
+    line-height: 30px;
     font-family: "MokokoRegular";
+    margin: 1rem 0 2rem;
 }
 
 .Fusion_div h3{
-    font-size: 32px;
+    font-size: 26px;
     color: #00758D;
     font-family: "Anona-bold";
 }
 .Fusion_div p{
     color: #353535;
-    font-size: 28px;
-    margin-bottom: 1rem;
-    line-height: 48px;
+    font-size: 20px;
+    margin: 1rem 0 2rem;
+    line-height: 30px;
     font-family: "MokokoRegular";
+    
 }
 
 .Vifilcon_img{
