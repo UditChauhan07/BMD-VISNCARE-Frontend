@@ -6,6 +6,7 @@ import Inquires from './Components/Pages/Inquires/Inquires';
 import Footer from './Components/Pages/Footer/Footer';
 import Benefits from './Components/Pages/Benefits/Benefits';
 
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,8 @@ function App() {
       <Benefits/>
       <Inquires />
       <Footer/>
+     
+
     </div>
   );
 }
