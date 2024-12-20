@@ -57,18 +57,59 @@
 
 .Inquires_div{
     text-align: center;
+    max-width: 500px;
+    margin: 100px auto 0;
+
+    text-align: start;
 }
 .Inquires_div h3{
+    text-align: center;
     font-size: 26px;
     color: #00758D;
     margin-bottom: 2rem;
     font-family: "Anona-bold";
 }
+
+.InquiresModal h3{
+    text-align: center;
+    font-size: 26px;
+    color: #00758D;
+    margin-bottom: 1rem;
+    font-family: "Anona-bold";
+}
+.InquiresModal input{
+    margin: 0 10px 0 0;
+}
+
+.InquiresModal label{
+    /* display: flex; */
+    /* gap: 10px; */
+    align-items: center;
+    font-family: "Anona-light";
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+
+
+
+.InquiresModal h4{
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: "Anona-light";
+    line-height: 21px;
+    margin-top: 1rem;
+}
+
 .Inquires_div p{
     font-size: 20px;
     color: #353535;
     font-family: "MokokoRegular";
     margin-bottom: 5px;
+
 
 }
 .Inquires_div a{
@@ -113,6 +154,7 @@
 }
 
 .submitButton {
+    margin: 20px 0 0 0;
     background: black;
     color: white;
     padding: 10px;
@@ -126,6 +168,12 @@
 
 .submitButton:hover {
     background: #333;
+}
+
+ 
+.Inquires_div p span {
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 /* Responsive Styling */

@@ -65,6 +65,10 @@
 }
 .Slider_section{
     width: 40%;
+    background-image: url("/public//Images/Bg-frame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .Img_div img{
     width: 100%;
@@ -120,3 +124,4 @@
     color: #353535;
     font-family: "MokokoRegular";
 }
+

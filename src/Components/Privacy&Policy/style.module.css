@@ -1,0 +1,93 @@
+
+
+
+@font-face {
+    font-family: "Anona-Semibold";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-semibold.otf") , 
+  }
+
+  @font-face {
+    font-family: "Anona-bold";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-bold.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-medium";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-medium.otf") ,
+  }
+
+  @font-face {
+    font-family: "Anona-light";
+    src:
+      local("AnonaNew"),
+      url("/fonts/Fontspring-DEMO-anona-light.otf") ,
+  }
+
+
+
+  /* mokoko fonts */
+
+  @font-face {
+    font-family: "MokokoBold";
+    src:
+      local("MokokoBold"),
+      url("/fonts/moko/MokokoBd.otf") ,
+  }
+  
+
+  @font-face {
+    font-family: "MokokoMedium";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoMd.otf") ,
+  }
+
+  @font-face {
+    font-family: "MokokoRegular";
+    src:
+      local("MokokoMedium"),
+      url("/fonts/moko/MokokoRg.otf") ,
+  }
+
+
+.mainPriva {
+    width: 90%;
+    margin: 70px auto 70px ;
+}
+
+.mainPriva h1{
+    margin: 0 0 30px 0;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Anona-Semibold";
+
+}
+
+.mainPriva h5{
+    font-family: "Anona-Semibold";
+    margin: 0 0 30px 0;
+    font-size: 26px;
+    text-align: start;
+
+}
+
+.mainPriva h6{
+    font-family: "Anona-medium";
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    text-align: start;
+
+}
+
+.mainPriva p{
+font-size: 16px;
+line-height: 24px;
+font-family: "MokokoRegular";
+margin: 20px 0 ;
+}

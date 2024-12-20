@@ -59,13 +59,13 @@
 .main_div{
     /* display: flex; */
     position: relative;
-    margin-top: -11rem;
+    margin-top: 0rem;
 }
 .EyeLine_div{
     width: 100%;
-    position: relative;
-    z-index: 1; 
- 
+    position: absolute;
+    z-index: -1;
+    top: -50%;
 }
 .EyeLine_div img{
     width: 60%;
@@ -73,20 +73,22 @@
     left: 40%;
 }
 .flex_div{
-    width: 100%;
-    position: absolute;
+    width: 80%;
+    /* position: absolute; */
     display: flex;
     align-items: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     z-index: 2;
     justify-content: space-between;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    margin: 0 auto 100px;
 }
 .content_div{
  
     width: 50%;
+    margin: 110px 0 0 0;
     /* border: 1px solid red; */
 
 }
@@ -132,6 +134,30 @@
 .Vifilcon_img img{
     width: 100%;
 }
+
+@media(max-width:1600px){
+    .EyeLine_div{
+     
+        top: -35%;
+    }
+}
+
+@media(max-width:1400px){
+    .EyeLine_div{
+     
+        top: -20%;
+    }
+}
+
+@media(max-width:1200px){
+    .EyeLine_div{
+     
+        top: -10%;
+    }
+}
+
+
+
 @media (max-width:1024px){
     .flex_div{
         max-width: 900px;

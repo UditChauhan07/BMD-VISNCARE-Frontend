@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Visncare = () => {
   // Slider settings
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -23,25 +23,25 @@ const Visncare = () => {
       <div className={styles.Slider_section}>
         <Slider {...settings}>
           <div className={styles.Img_div}>
-            <img src="Images/01.png" alt="Slide 1" />
+            <img src="Images/011.png" alt="Slide 1" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/02.png" alt="Slide 2" />
+            <img src="Images/033.png" alt="Slide 2" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/03.png" alt="Slide 3" />
+            <img src="Images/044.png" alt="Slide 3" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/04.png" alt="Slide 3" />
+            <img src="Images/022.png" alt="Slide 3" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/05.png" alt="Slide 3" />
+            <img src="Images/055.png" alt="Slide 3" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/06.png" alt="Slide 3" />
+            <img src="Images/066.png" alt="Slide 3" />
           </div>
           <div className={styles.Img_div}>
-            <img src="Images/07.png" alt="Slide 3" />
+            <img src="Images/077.png" alt="Slide 3" />
           </div>
         
         </Slider>
