@@ -13,8 +13,8 @@ const Benefits = () => {
                         <div className={styles.Key}><p>Increased <br />Tear Stability</p></div>
                         <div className={styles.Key}><p>Prolonged <br />Effect</p></div>
                         <div className={styles.Key}><p>Boost<br />lens water retention</p></div>
-                        <div className={styles.Key}><p>Constant<br /> Hydration + Lubrication</p></div>
-                        <div className={styles.Key}><p>Zero <br />Lens/Eyelid Friction</p></div>
+                        <div className={styles.Key}><p>Constant<br /> Hydration &#9543; Lubrication</p></div>
+                        <div className={styles.Key}><p>Zero <br />Lens &#8725; Eyelid Friction</p></div>
                     </div>
                 </div>
 
