@@ -9,11 +9,12 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+   
 }
 
 .modalContent {
     background-color: #ffffff;
-    padding: 30px 50px 40px;
+    padding: 30px;
     /* background: #fff; */
     /* padding: 20px; */
     border-radius: 8px;
@@ -21,8 +22,26 @@
     width: 90%;
     max-width: 500px;
     position: relative;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
 }
-
+.modalContent::-webkit-scrollbar {
+    width: 3px; 
+  }
+  
+  .modalContent::-webkit-scrollbar-track {
+    background: #ffffff00; 
+  }
+  
+  .modalContent::-webkit-scrollbar-thumb {
+    background: #000000; 
+    border-radius: 50px;
+  }
+  
+  .modalContent::-webkit-scrollbar-thumb:hover {
+    background: #828282;
+  }
 /* Close button */
 .closeButton {
     position: absolute;

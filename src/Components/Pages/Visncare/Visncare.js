@@ -49,12 +49,12 @@ const Visncare = () => {
       <div className={styles.content_section}>
         <div className={styles.tittle}>
         <h1>See it All</h1>
-        <p className={styles.titpara}>Groundbreaking Optical Innovation that Change Live</p>
+        <p className={styles.titpara}>Groundbreaking Optical Innovation that Changes Lives</p>
         <div className={styles.description}>
           <p><span className={styles.boldfontw}>Bruno Vision Care</span> is more than a vision correction company. Our eye health technologies go beyond traditional contact lenses, integrating with the body's natural systems. By aligning lens technology with human biology, we help patients see their world clearly while preventing conditions and halting physiological changes before they impact their lifestyle.</p>
         <div className={styles.innovation}>
         <h3>Innovation</h3>
-        <p>FDA approved Vifilcon C and Fusion Technology, October 25, 2024</p>
+        <p>FDA approved Vifilcon C and Fusion Technology, October 25, 2024.</p>
 
         </div>
 

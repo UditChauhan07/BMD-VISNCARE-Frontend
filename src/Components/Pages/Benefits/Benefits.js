@@ -3,7 +3,9 @@ import styles from "../Benefits/Benefits.module.css"
 const Benefits = () => {
     return (
         <section>
+           
             <div className={styles.Benefits_main}>
+               
                 <div className={styles.Benefits_img}>
                     <img src='Images/Key-Benefits (2).png' />
                 </div>

@@ -12,11 +12,11 @@ const Vifilcon = () => {
                         <div className={styles.Content}>
                             <div className={styles.Vifilcon_div}>
                                 <h3>Vifilcon C</h3>
-                                <p>The Vifilcon C is a proprietary contact lens material that uses a unique mechanism for the controlled release of natural substances directly to the eye called Lachryceuticals</p>
+                                <p>The Vifilcon C is a proprietary contact lens material that uses a unique mechanism for the controlled release of natural substances directly to the eye called Lachryceuticals®.</p>
                             </div>
                             <div className={styles.Fusion_div}>
                                 <h3>FusionTechnology®</h3>
-                                <p>The Fusion Technology™ patented delivery system gradually releases natural polymers Hyaluronic Acid (HA), and Tamarind Seed Polysaccharide (TSP®), which mimic human tears.</p>
+                                <p>The Fusion Technology® patented delivery system gradually releases natural polymers Hyaluronic Acid (HA), and Tamarind Seed Polysaccharide (TSP®), which mimic human tears.</p>
                             </div>
                         </div>
 

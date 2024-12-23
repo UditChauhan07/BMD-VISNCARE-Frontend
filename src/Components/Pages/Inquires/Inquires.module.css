@@ -58,8 +58,7 @@
 .Inquires_div{
     text-align: center;
     max-width: 500px;
-    margin: 100px auto 0;
-
+    margin: 0px auto 0;
     text-align: center;
 }
 .Inquires_div h3{
@@ -193,6 +192,11 @@
 }
 
 @media (max-width: 480px) {
+    
+.Inquires_div{
+  
+    margin: 20px auto 0;}
+
     .form input,
     .form textarea {
         font-size: 0.8rem;
