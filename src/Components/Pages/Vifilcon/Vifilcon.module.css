@@ -1,110 +1,115 @@
 @font-face {
     font-family: "Anona-Semibold";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-semibold.otf") , 
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-semibold.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-bold";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-bold.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-bold.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-medium";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-medium.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-medium.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-light";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-light.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-light.otf"),
+}
 
 
 
-  /* mokoko fonts */
+/* mokoko fonts */
 
-  @font-face {
+@font-face {
     font-family: "MokokoBold";
     src:
-      local("MokokoBold"),
-      url("/fonts/moko/MokokoBd.otf") ,
-  }
-  
+        local("MokokoBold"),
+        url("/fonts/moko/MokokoBd.otf"),
+}
 
-  @font-face {
+
+@font-face {
     font-family: "MokokoMedium";
     src:
-      local("MokokoMedium"),
-      url("/fonts/moko/MokokoMd.otf") ,
-  }
+        local("MokokoMedium"),
+        url("/fonts/moko/MokokoMd.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "MokokoRegular";
     src:
-      local("MokokoMedium"),
-      url("/fonts/moko/MokokoRg.otf") ,
-  }
+        local("MokokoMedium"),
+        url("/fonts/moko/MokokoRg.otf"),
+}
 
 
 
 
 
-.main_div{
+.main_div {
     /* display: flex; */
     position: relative;
     margin-top: 0rem;
 }
-.EyeLine_div{
+
+.EyeLine_div {
     width: 100%;
     position: absolute;
     z-index: -1;
     top: -50%;
 }
-.EyeLine_div img{
+
+.EyeLine_div img {
     width: 60%;
     position: relative;
     left: 40%;
 }
-.flex_div{
+
+.flex_div {
     width: 80%;
-    /* position: absolute; */
     display: flex;
     align-items: center;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
     z-index: 2;
     justify-content: space-between;
-    /* max-width: 1200px; */
-    margin: 0 auto 100px;
+    margin: 0 auto 0px;
 }
-.content_div{
- 
+
+.content_div {
+
     width: 50%;
     margin: 110px 0 0 0;
     /* border: 1px solid red; */
 
 }
-.Content{
+
+.Content {
     /* width: 70%;
     margin: auto; */
 }
-.Vifilcon_div{
+
+.Vifilcon_div {
     margin-bottom: 3rem;
 }
-.Vifilcon_div h3{
+
+.Vifilcon_div h3 {
     font-size: 26px;
     color: #00758D;
     font-family: "Anona-bold";
 }
-.Vifilcon_div p{
+
+.Vifilcon_div p {
     color: #353535;
     font-size: 20px;
     /* margin-bottom: 1rem; */
@@ -113,56 +118,120 @@
     margin: 1rem 0 2rem;
 }
 
-.Fusion_div h3{
+.Fusion_div h3 {
     font-size: 26px;
     color: #00758D;
     font-family: "Anona-bold";
 }
-.Fusion_div p{
+
+.Fusion_div p {
     color: #353535;
     font-size: 20px;
     margin: 1rem 0 2rem;
     line-height: 30px;
     font-family: "MokokoRegular";
-    
+
 }
 
-.Vifilcon_img{
+.Vifilcon_img {
     /* margin: auto;
     width: 70%; */
 }
-.Vifilcon_img img{
+
+.Vifilcon_img img {
     width: 100%;
 }
 
-@media(max-width:1600px){
-    .EyeLine_div{
-     
+@media(max-width:1600px) {
+    .EyeLine_div {
+
         top: -35%;
     }
 }
 
-@media(max-width:1400px){
-    .EyeLine_div{
-     
+@media(max-width:1400px) {
+    .EyeLine_div {
+
         top: -20%;
     }
 }
 
-@media(max-width:1200px){
-    .EyeLine_div{
-     
-        top: -10%;
+@media(max-width:1200px) {
+
+    .EyeLine_div {
+        top: 5%;
+    }
+
+    .Vifilcon_div h3 {
+        font-size: 24px;
+    }
+
+    .Vifilcon_div p {
+        font-size: 18px;
+    }
+
+    .Fusion_div h3 {
+        font-size: 24px;
+    }
+
+    .Fusion_div p {
+        font-size: 18px;
+    }
+
+    .flex_div {
+        max-width: 950px;
+        padding: 20px;
+        /* margin: 40px; */
+        width: 100%;
+    }
+
+    .Vifilcon_img {
+        width: 70%;
+        display: flex;
+        margin: auto;
     }
 }
 
 
 
-@media (max-width:1024px){
-    .flex_div{
-        max-width: 900px;
-    }
-    .main_div{
+@media (max-width:1024px) {
+
+    .main_div {
         margin-top: -5rem;
+    }
+}
+@media (max-width:900px){
+    .Vifilcon_div{
+        margin-bottom: 1.5rem;
+    }
+    .Vifilcon_div h3{
+        font-size: 16px;
+    }
+    .Vifilcon_div p{
+        font-size: 14px;
+        margin: 10px 0px 20px;
+    }
+    .flex_div h3{
+        font-size: 16px;
+    }
+    .flex_div p{
+        font-size: 14px;
+        margin: 10px 0px 20px;
+    }
+}
+@media (max-width:767px){
+    .EyeLine_div {
+        display: none;
+    }
+    .flex_div{
+        /* display: flex; */
+        flex-direction: column-reverse;
+    }
+    .content_div{
+        width: 90%;
+        margin: 15px 0 0 0;
+    }
+    .main_div {
+        margin-top: -3rem;
     }
 }

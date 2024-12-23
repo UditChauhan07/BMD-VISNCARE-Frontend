@@ -1,103 +1,112 @@
-
 @font-face {
     font-family: "Anona-Semibold";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-semibold.otf") , 
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-semibold.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-bold";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-bold.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-bold.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-medium";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-medium.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-medium.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "Anona-light";
     src:
-      local("AnonaNew"),
-      url("/fonts/Fontspring-DEMO-anona-light.otf") ,
-  }
+        local("AnonaNew"),
+        url("/fonts/Fontspring-DEMO-anona-light.otf"),
+}
 
 
 
-  /* mokoko fonts */
+/* mokoko fonts */
 
-  @font-face {
+@font-face {
     font-family: "MokokoBold";
     src:
-      local("MokokoBold"),
-      url("/fonts/moko/MokokoBd.otf") ,
-  }
-  
+        local("MokokoBold"),
+        url("/fonts/moko/MokokoBd.otf"),
+}
 
-  @font-face {
+
+@font-face {
     font-family: "MokokoMedium";
     src:
-      local("MokokoMedium"),
-      url("/fonts/moko/MokokoMd.otf") ,
-  }
+        local("MokokoMedium"),
+        url("/fonts/moko/MokokoMd.otf"),
+}
 
-  @font-face {
+@font-face {
     font-family: "MokokoRegular";
     src:
-      local("MokokoMedium"),
-      url("/fonts/moko/MokokoRg.otf") ,
-  }
+        local("MokokoMedium"),
+        url("/fonts/moko/MokokoRg.otf"),
+}
 
-  
+
 
 
 
 /* @import url("/fonts/fonnts.com-Anona_Extrabold.otf"); */
 
-.heroSection{
- display: flex;
-    
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-inline: 20px; */
+
 }
-.Slider_section{
+
+.Slider_section {
     width: 40%;
     background-image: url("/public//Images/Bg-frame.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.Img_div img{
+
+.Img_div img {
     width: 100%;
 }
-.content_section{
+
+.content_section {
     width: 60%;
-    margin:auto;
+    margin: auto;
 }
+
 .tittle {
-    padding-right: 3rem;
+    
 }
-.tittle h1{
+
+.tittle h1 {
     font-size: 120px;
     color: #00A7E1;
     letter-spacing: 5px;
     line-height: 120px;
     font-family: "Anona-Semibold";
-    
+
 }
-.tittle .titpara{
+
+.tittle .titpara {
     color: #00758D;
     font-size: 26px;
     font-family: "Anona-medium";
 }
+
 .description {
     margin-top: 2rem;
-   
 }
-.description p{
+
+.description p {
     color: #353535;
     font-size: 20px;
     margin-bottom: 1rem;
@@ -105,23 +114,102 @@
     font-family: "MokokoRegular";
 }
 
-.description p .boldfontw{
+.description p .boldfontw {
     font-family: "MokokoMedium";
     color: #060606;
     font-size: 20px;
 }
 
-.innovation h3{
+.innovation h3 {
     font-size: 26px;
     color: #00758D;
     margin-bottom: 1rem;
     font-family: "Anona-bold";
-    margin: 45px 0 20px 0;
+    margin: 20px 0 20px 0;
 
 }
-.innovation p{
+
+.innovation p {
     font-size: 20px;
     color: #353535;
     font-family: "MokokoRegular";
 }
 
+@media (max-width:1200px) {
+    .tittle h1 {
+        font-size: 80px;
+        line-height: 60px;
+    }
+
+    .tittle .titpara {
+        font-size: 24px;
+    }
+
+    .description {
+        margin-top: 1rem;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+
+    .innovation h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:900px) {
+    .tittle h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .tittle .titpara {
+        font-size: 16px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .description p .boldfontw {
+        font-size: 16px;
+    }
+
+    .innovation h3 {
+        font-size: 16px;
+        margin: 0px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .heroSection {
+        display: block !important; 
+        padding-inline: 20px;
+    }
+    .Slider_section{
+        width: 50%;
+        margin: auto;
+    }
+    .content_section{
+        width: 90%;
+        margin: 3rem auto;
+    }
+}
+@media (max-width:600px) {
+    .Slider_section{
+        width: 60%;
+    }
+}
+
+@media (max-width:425px) {
+    .Slider_section{
+        width: 60%;
+    }
+}
+@media (max-width:400px) {
+    .Slider_section{
+        width: 80%;
+    }
+}
