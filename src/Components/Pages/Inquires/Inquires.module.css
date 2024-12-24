@@ -117,6 +117,7 @@
     color: #007489;
     text-decoration: none;
     font-family: "MokokoRegular";
+    word-break: break-all;
 
 }
 .Inquires_div h4{
@@ -195,7 +196,7 @@
     
 .Inquires_div{
   
-    margin: 20px auto 0;}
+    margin: 20px 20px 0;}
 
     .form input,
     .form textarea {
